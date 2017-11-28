@@ -1,11 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-class Bisection{
+class FalsePosition{
     private : double eps;
     private : double a,b,root;
 
-    public : Bisection(){
+    public : FalsePosition(){
          a = 0, b = 0, root = -1, eps = 0.0000000001;
     }
 
@@ -49,8 +49,8 @@ class Bisection{
 };
 
 int main(){
-    Bisection bisection;
-    bisection.findRoot();
-    printf("The root of the given equation : %0.10lf\n", bisection.getRoot());
+    FalsePosition falsePosition;
+    falsePosition.findRoot();
+    printf("The root of the given equation : %0.10lf\n", falsePosition.getRoot());
 }
 
